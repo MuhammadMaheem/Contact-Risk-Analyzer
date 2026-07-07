@@ -1,0 +1,30 @@
+MUTUAL NON-DISCLOSURE AGREEMENT
+
+This Mutual Non-Disclosure Agreement ("Agreement") is entered into as of March 1, 2026 ("Effective Date"), by and between Northwind Analytics Inc., a corporation with offices at 500 Harbor Way, Seattle, WA ("Disclosing Party"), and Bluepeak Consulting LLC, a limited liability company with offices at 22 Elm Street, Austin, TX ("Receiving Party") (each a "Party" and collectively the "Parties").
+
+1. PURPOSE
+The Parties wish to explore a potential business relationship involving data analytics services (the "Purpose") and in connection with the Purpose, each Party may disclose to the other certain confidential technical and business information.
+
+2. CONFIDENTIALITY
+Each Party agrees to hold the other Party's Confidential Information in strict confidence and to use reasonable efforts to protect such information from unauthorized disclosure. The obligations of confidentiality set forth in this Agreement shall survive for a period of five (5) years following the Effective Date, and with respect to trade secrets, shall survive indefinitely.
+
+3. STANDARD OF CARE
+The Receiving Party shall use reasonable efforts to protect the Disclosing Party's Confidential Information from unauthorized use or disclosure. The Receiving Party shall not be liable for any inadvertent disclosure so long as reasonable efforts were used, it being understood that "reasonable efforts" shall be interpreted according to the Receiving Party's own internal policies from time to time in effect.
+
+4. TERM AND TERMINATION
+This Agreement shall commence on the Effective Date and shall continue in effect until December 31, 2027 ("Expiry Date"), unless earlier terminated by either Party upon thirty (30) days' written notice to the other Party.
+
+5. PAYMENT
+No fees are payable under this Agreement, as it solely governs the exchange of confidential information.
+
+6. RESPONSIBILITIES
+The Disclosing Party shall clearly mark all Confidential Information as "Confidential" at the time of disclosure. The Receiving Party shall restrict access to Confidential Information to those employees and contractors who have a need to know such information for the Purpose.
+
+7. GOVERNING LAW
+This Agreement shall be governed by the laws of the State of Washington.
+
+IN WITNESS WHEREOF, the Parties have executed this Agreement as of the Effective Date.
+
+Northwind Analytics Inc.                    Bluepeak Consulting LLC
+By: _____________________                   By: _____________________
+Name: Sarah Chen, CEO                       Name: David Alvarez, Managing Partner

@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+app.db*
+storage/chroma/*
+storage/generated_reports/*
+uploads/*
+.env
+tests/

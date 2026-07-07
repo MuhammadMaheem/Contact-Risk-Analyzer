@@ -1,0 +1,27 @@
+# Backend
+backend/.venv/
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/storage/chroma/*
+!backend/storage/chroma/.gitkeep
+backend/storage/generated_reports/*
+!backend/storage/generated_reports/.gitkeep
+backend/app.db
+backend/app.db-*
+backend/.env
+backend/__pycache__/
+**/__pycache__/
+*.pyc
+.pytest_cache/
+
+# Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env.local
+frontend/next-env.d.ts
+
+# OS / editor
+.DS_Store
+.claude/
+*.log

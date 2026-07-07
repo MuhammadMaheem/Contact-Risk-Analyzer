@@ -1,0 +1,33 @@
+services:
+  backend:
+    build:
+      context: ./backend
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./backend/.env
+    volumes:
+      - backend_data:/app/storage
+      - backend_uploads:/app/uploads
+      - backend_db:/app/db
+    environment:
+      # override the default sqlite path so it lives on the backend_db volume
+      DATABASE_URL: sqlite+aiosqlite:////app/db/app.db
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        # Browser-side fetches need a URL reachable from the HOST machine,
+        # not the internal Docker service DNS name ("backend") — that
+        # distinction is the #1 docker-compose + Next.js gotcha.
+        NEXT_PUBLIC_API_URL: http://localhost:8000
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+
+volumes:
+  backend_data:
+  backend_uploads:
+  backend_db:

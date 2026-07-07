@@ -1,0 +1,12 @@
+MUTUAL NON-DISCLOSURE AGREEMENT
+
+This Agreement is entered into as of March 1, 2026 between Northwind Analytics Inc. ("Disclosing Party") and Bluepeak Consulting LLC ("Receiving Party").
+
+1. CONFIDENTIALITY
+Each Party agrees to hold the other Party's Confidential Information in strict confidence using reasonable efforts, a term left undefined in this Agreement.
+
+2. TERM
+This Agreement continues until December 31, 2027, unless earlier terminated upon thirty (30) days' written notice.
+
+3. PAYMENT
+No fees are payable under this Agreement.
