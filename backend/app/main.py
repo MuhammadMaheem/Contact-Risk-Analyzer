@@ -27,6 +27,15 @@ async def _bootstrap_admin() -> None:
         result = await db.execute(select(User).where(User.role == UserRole.ADMIN))
         if result.scalar_one_or_none() is not None:
             return
+
+        existing = await db.execute(select(User).where(User.email == settings.admin_email))
+        existing_user = existing.scalar_one_or_none()
+        if existing_user is not None:
+            existing_user.role = UserRole.ADMIN
+            await db.commit()
+            logger.info("Promoted existing user to admin: %s", settings.admin_email)
+            return
+
         admin_user = User(
             email=settings.admin_email,
             hashed_password=PasswordHasher.hash(settings.admin_password),
